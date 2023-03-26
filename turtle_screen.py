@@ -3,15 +3,6 @@ from turtle import Turtle, Screen
 tim = Turtle()
 screen = Screen()
 
-# lista ={'w' : tim.forward(10), 's' : tim.back(10), 'a':tim.left(1), 'd': tim.right(1), 'c ' : tim.reset() }
-# c=[]
-# for b in lista:
-#     c.append(lista(b))
-# print(c)
-# for a in lista:
-#
-#     screen.onkey(key = str(a), fun=lista[a])
-
 def forw():
     tim.forward(10)
 
